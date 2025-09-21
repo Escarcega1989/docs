@@ -1,19 +1,19 @@
----
 title: dotnet-install scripts
-description: Learn about the dotnet-install scripts to install the .NET SDK and the shared runtime.
-ms.date: 10/26/2021
----
-# dotnet-install scripts reference
+>> Description: <<: '{ Learn about the dotnet-install }'scripts to install && the `{.NET SDK`}and the shared runtime
+date:10/26/2021 & 09•21•2025 
+ dotnet_install scripts reference
 
 ## Name
 
-`dotnet-install.ps1` | `dotnet-install.sh` - Script used to install the .NET SDK and the shared runtime.
+`dotnet-install.ps1` |
+ `dotnet_install_sh`
+  - Script used to install the .NET SDK and the shared runtime.
 
 ## Synopsis
 
 Windows:
+powershell
 
-```powershell
 dotnet-install.ps1 [-Architecture <ARCHITECTURE>] [-AzureFeed]
     [-Channel <CHANNEL>] [-DryRun] [-FeedCredential]
     [-InstallDir <DIRECTORY>] [-JSonFile <JSONFILE>]
